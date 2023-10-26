@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
+      <link rel="stylesheet" href="css/logincss.css">
+  </head>
+
+<body style="background: url('images/img.jpg') no-repeat;
+height: 100vh;
+overflow: hidden;
+background-size: cover;">
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div class="center">
+        <h1>Login</h1>
+        <form method="post" class="needs-validation" novalidate >
+            <div class="txt_field">
+                <input type="text" required id="user">
+                <label>Nombre Usuario</label>
+                <div class="valid-feedback">
+                  Bien
+              </div>
+              <div class="invalid-feedback">
+                  Ingrese nombre Usuario
+              </div>
+            </div>
+            <div class="txt_field">
+                <input type="password" required id="pass">
+                <label>Contraseña</label>
+                <div class="valid-feedback">
+                  Bien
+              </div>
+              <div class="invalid-feedback">
+                  Ingrese contraseña
+              </div>
+            </div>
+            <div class="pass">Olvidó la contraseña?</div>
+            <div>
+              <button id="btnIngresar" type="comit"  class="btn btn-primary">Ingresar</button>
+            </div>
+            <div class="signup_link" id="btn" >
+                No tiene una cuenta?<a href="registrar.html">Registrar</a>
+            </div>
+        </form>
+    </div>
+</main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+<script src="js/login.js"></script>
+</body>
+
+</html>

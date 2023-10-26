@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="css/modificarP.css">
+
+    <title>SISEV</title>
+  </head>
+
+  <body>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <!-- .site-mobile-menu -->
+
+    <!-- NAVBAR -->
+    <header class="site-navbar mt-3" id="menu"></header>
+
+    <div class="hero" style="background-image: url('images/img3.jpg')"></div>
+
+    <div class="container" id="modificarP">
+        <div class="center">
+            <h1>Modificar Perfil</h1>
+            <form method="post">
+                <div class="txt_field">   
+                    <input type="text" required id="cedula">
+                    <span></span>
+                    <label>Cedula</label>
+                </div>
+                <div class="txt_field">
+                    <input type="text" required id="nombre">
+                    <span></span>
+                    <label>Nombre</label>
+                </div>
+                <div class="txt_field">
+                  <input type="email" required id="email">
+                  <span></span>
+                  <label>Email</label>
+              </div>
+              <div class="txt_field">
+                <input type="password" required id="password">
+                <span></span>
+                <label>Contraseña</label>
+            </div>
+            <div class="txt_field">
+              <input type="text" required id="telefono">
+              <input type="text" required id="rol" hidden>
+              <input type="text" required id="id" hidden>
+              <span></span>
+              <label>Telefono</label>
+          </div>
+                <div>
+                  <button id="btnIngresar" onclick="actualizarUsuario()" type="button"class="btn btn-primary">Editar</button>
+                </div>
+               
+            </form>
+        </div>
+    </div>
+
+    <footer>
+       
+      
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js "></script>
+    <script src="js/modificarPerfil.js"></script>
+  </body>
+</html>
